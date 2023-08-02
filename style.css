@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+div {
+    display: inline-block;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 15%;
+}
+div#q1 {
+background-image: linear-gradient(to bottom, rgb(0, 255, 255), blue);
+}
+div#q2 {
+background-image: linear-gradient(to bottom, red, orange);
+}
+div#q3 {
+background-image: linear-gradient(to bottom, green, rgb(1, 31, 1));
+}
+div#q4 {
+    background-image: url('wallpaper001.jpg');
+}
+div#q5 {
+    background-image: url(wallpaper002.jpg);
+    background-position: center;
+}
+body {
+    background-image: url(wallpaper004.jpg);
+}
